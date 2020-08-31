@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Javascript Trivia</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Trivia Treats</h1>
+        <p> Time: <span id="timer">0</span></p>
+        <p> Score: <span id= "scoreboard">0</span></p>
+      </header>
+      <div id = "welcome"class = "card">
+          <div class="card-header">
+            <h2>Welcome to the game</h2>
+            <p>You will have 45 seconds to answer 4 questions. Try to beat the clock. For every question 
+                you answer correctly, you will get 5 points. To begin the quiz, press Start.
+            </p>
+            <button class="btn" id= "start">start</button>
+          </div>
+      </div>
+      <div id = "game" class="card hide">
+        <div class="card-header">
+          <h2 id="question"> Question </h2>
+        </div>
+        <div id="choices" class="card-body">
+         
+        </div>
+        <div class="card-footer">
+          
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
